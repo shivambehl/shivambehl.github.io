@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+
+/*Global*/
+html{
+	height:100%;
+	/*overflow: hidden;*/
+}
+
+
+body{
+	padding: 4em;
+	font-family: 'Anonymous Pro', monospace;
+	/*background: url('images/bg.jpg');*/
+	background-size: cover;
+}
+
+
+.intro{
+	position: relative;
+	top: 10%;
+	width: 24em;
+	margin: 0 auto;
+	font-size: 180%;
+	text-align: center;
+}
+
