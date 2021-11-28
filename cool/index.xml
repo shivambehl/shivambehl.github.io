@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cools on Shivam Behl</title>
-    <link>http://shivambehl.github.io/cool/</link>
+    <link>https://shivambehl.github.io/cool/</link>
     <description>Recent content in Cools on Shivam Behl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Mar 2019 09:00:00 +0000</lastBuildDate><atom:link href="http://shivambehl.github.io/cool/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Mar 2019 09:00:00 +0000</lastBuildDate><atom:link href="https://shivambehl.github.io/cool/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Placeholder for something cool, lol</title>
-      <link>http://shivambehl.github.io/cool/placeholder/</link>
+      <link>https://shivambehl.github.io/cool/placeholder/</link>
       <pubDate>Thu, 28 Mar 2019 09:00:00 +0000</pubDate>
       
-      <guid>http://shivambehl.github.io/cool/placeholder/</guid>
+      <guid>https://shivambehl.github.io/cool/placeholder/</guid>
       <description>Hey, this is a placeholder for something cool :)</description>
     </item>
     
