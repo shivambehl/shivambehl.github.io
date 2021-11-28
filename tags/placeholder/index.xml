@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>placeholder on Shivam Behl</title>
+    <link>http://shivambehl.github.io/tags/placeholder/</link>
+    <description>Recent content in placeholder on Shivam Behl</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Mar 2019 09:00:00 +0000</lastBuildDate><atom:link href="http://shivambehl.github.io/tags/placeholder/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Placeholder for something cool, lol</title>
+      <link>http://shivambehl.github.io/cool/placeholder/</link>
+      <pubDate>Thu, 28 Mar 2019 09:00:00 +0000</pubDate>
+      
+      <guid>http://shivambehl.github.io/cool/placeholder/</guid>
+      <description>Hey, this is a placeholder for something cool :)</description>
+    </item>
+    
+    <item>
+      <title>Placeholder Post</title>
+      <link>http://shivambehl.github.io/posts/placeholder/</link>
+      <pubDate>Thu, 28 Mar 2019 09:00:00 +0000</pubDate>
+      
+      <guid>http://shivambehl.github.io/posts/placeholder/</guid>
+      <description>Hey, this is a placeholder Post, Will add posts soon :)</description>
+    </item>
+    
+  </channel>
+</rss>
