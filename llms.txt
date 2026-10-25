@@ -6,12 +6,15 @@
 
 - [Home](https://shivambehl.github.io/): Professional summary, contact details, and primary profile.
 - [Portfolio](https://shivambehl.github.io/about/): Selected work in cloud systems, agentic AI alert automation, commerce platforms, and personal projects.
+- [Writing](https://shivambehl.github.io/posts/): Technical writing on concurrency, parallelism, Go profiling, and backend engineering.
 
 ## Selected work
 
 - [Fashion Intelligence System](https://shivambehl.github.io/about/projects/fashioninteligence/): Multi-modal fashion-trend prediction using e-commerce data, NLP, and computer vision; top-three national result at Flipkart GRiD.
 - [NARAD disaster-relief publication](https://www.sciencedirect.com/science/article/pii/S2212420921000674): Published work on disaster coordination and sentiment analysis.
 - [Flipkart experience](https://shivambehl.github.io/about/experience/flipkart/): Post-delivery services, cart, checkout, invoicing, and asynchronous-task platform work.
+- [Concurrency and parallelism: insights and notes](https://www.linkedin.com/pulse/concurrency-parallelism-insightsnotes-shivam-behl-kgydc/): LinkedIn article on concurrent and parallel execution.
+- [Go profiling 0-1](https://www.linkedin.com/pulse/go-profiling-0-1-beginners-guide-analysing-your-codes-shivam-behl-znuxc/): LinkedIn beginner's guide to analysing Go program performance.
 
 ## Topics
 

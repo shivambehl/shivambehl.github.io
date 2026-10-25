@@ -28,6 +28,11 @@ body { color: var(--ink); background: #fbfdfc; }
 .portfolio-intro h2, .portfolio-section h2 { margin: 0; font-size: clamp(1.7rem, 4vw, 2.45rem); letter-spacing: -.03em; }
 .portfolio-intro p:last-child { color: var(--muted); line-height: 1.65; text-align: left; }
 .portfolio-section { margin-top: 3.25rem; }
+.writing-list { display: grid; gap: 1rem; }
+.writing-card { padding: 1.5rem; border: 1px solid var(--line); border-radius: .7rem; background: var(--card); box-shadow: 0 10px 24px rgba(21, 33, 30, .045); }
+.writing-card h3 { margin: 0 0 .75rem; font-size: clamp(1.2rem, 3vw, 1.5rem); letter-spacing: -.025em; }
+.writing-card p:not(.work-card__eyebrow) { max-width: 42rem; margin: 0; color: var(--muted); line-height: 1.6; text-align: left; }
+.writing-card__source { display: inline-block; margin-top: 1.15rem; color: var(--accent-dark) !important; font-weight: 700; }
 .work-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1.25rem; }
 .work-card { display: flex; flex-direction: column; min-height: 15rem; padding: 1.4rem; border: 1px solid var(--line); border-radius: .7rem; background: var(--card); box-shadow: 0 10px 24px rgba(21, 33, 30, .045); }
 .work-card--featured { border-color: #b6d9cd; background: linear-gradient(145deg, #f0faf6, #fff 60%); }
