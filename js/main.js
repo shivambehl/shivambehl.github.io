@@ -12,6 +12,16 @@ if (!!$.prototype.justifiedGallery) {
 
 $(document).ready(function() {
 
+  /** Keep the site footer current without requiring a full static-site rebuild. */
+  $("#footer .footer-left").html("Copyright &copy; " + new Date().getFullYear() + " Shivam Behl");
+
+  /** Give legacy article pages the same navigation as the refreshed site. */
+  if ($("#header-post").length && !$("#header").length) {
+    $(".content.index").prepend(
+      '<header id="header"><a href="/"><div id="logo" style="background-image: url(/images/logo.png)"></div><div id="title"><h1>Shivam Behl</h1></div></a><div id="nav"><ul><li class="icon"><a href="#" aria-label="Menu"><i class="fas fa-bars fa-2x" aria-hidden="true"></i></a></li><li><a href="/">Home</a></li><li><a href="/about">Portfolio</a></li><li><a href="/posts">Posts</a></li><li><a href="/cool">Cool</a></li></ul></div></header>'
+    );
+  }
+
   /**
    * Shows the responsive navigation menu on mobile.
    */

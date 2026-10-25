@@ -1,0 +1,30 @@
+# Shivam Behl
+
+> Personal site and portfolio for Shivam Behl, Software Engineer II at Microsoft. Shivam builds dependable cloud services, backend platforms, distributed systems, and production observability.
+
+## Primary pages
+
+- [Home](https://shivambehl.github.io/): Professional summary, contact details, and primary profile.
+- [Portfolio](https://shivambehl.github.io/about/): Selected work in cloud systems, agentic AI alert automation, commerce platforms, and personal projects.
+
+## Selected work
+
+- [Fashion Intelligence System](https://shivambehl.github.io/about/projects/fashioninteligence/): Multi-modal fashion-trend prediction using e-commerce data, NLP, and computer vision; top-three national result at Flipkart GRiD.
+- [NARAD disaster-relief publication](https://www.sciencedirect.com/science/article/pii/S2212420921000674): Published work on disaster coordination and sentiment analysis.
+- [Flipkart experience](https://shivambehl.github.io/about/experience/flipkart/): Post-delivery services, cart, checkout, invoicing, and asynchronous-task platform work.
+
+## Topics
+
+- Distributed systems
+- Backend engineering
+- Cloud services
+- Microservices
+- Observability
+- Kubernetes
+- Agentic AI
+
+## Contact and profiles
+
+- [LinkedIn](https://www.linkedin.com/in/shivam1103/)
+- [GitHub](https://github.com/shivambehl)
+- [Email](mailto:shivambehl123@gmail.com)

@@ -1,0 +1,55 @@
+:root {
+  --ink: #15211e;
+  --muted: #5c6965;
+  --line: #dce6e1;
+  --accent: #0e7661;
+  --accent-dark: #075342;
+  --wash: #f1f7f4;
+  --card: #ffffff;
+}
+
+body { color: var(--ink); background: #fbfdfc; }
+#header { margin-bottom: 3.5rem; }
+#header #logo { width: 96px; height: 96px; background-size: 96px 96px; }
+#header #nav a, #header #nav ul li { color: var(--accent-dark); border-color: #a8c7bd; }
+.hero { max-width: 48rem; padding: 1.25rem 0 3.5rem; }
+.eyebrow, .section-kicker, .work-card__eyebrow { margin: 0 0 .75rem; color: var(--accent); font-size: .74rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.hero h2 { margin: 0; max-width: 44rem; font-size: clamp(2.35rem, 6vw, 4.6rem); font-weight: 700; letter-spacing: -.045em; line-height: 1.02; }
+.hero__lede { max-width: 41rem; margin: 1.5rem 0 0; color: var(--muted); font-size: 1.14rem; line-height: 1.65; text-align: left; }
+.hero__actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 2rem; }
+.button { display: inline-flex; align-items: center; min-height: 2.8rem; padding: 0 .95rem; border: 1px solid var(--accent); border-radius: .45rem; background: var(--accent); color: #fff !important; font-weight: 700; text-decoration: none !important; }
+.button:hover, .button:focus-visible { border-color: var(--accent-dark); background: var(--accent-dark) !important; }
+.button--secondary { background: transparent; color: var(--accent-dark) !important; }
+.button--secondary:hover, .button--secondary:focus-visible { color: #fff !important; }
+.social-links { display: flex; gap: 1rem; margin: 1.5rem 0 0; }
+.social-links a { color: var(--muted) !important; font-size: 1.1rem; }
+.social-links a:hover, .social-links a:focus-visible { color: var(--accent) !important; }
+.portfolio-intro { max-width: 45rem; margin-bottom: 2.5rem; }
+.portfolio-intro h2, .portfolio-section h2 { margin: 0; font-size: clamp(1.7rem, 4vw, 2.45rem); letter-spacing: -.03em; }
+.portfolio-intro p:last-child { color: var(--muted); line-height: 1.65; text-align: left; }
+.portfolio-section { margin-top: 3.25rem; }
+.work-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1.25rem; }
+.work-card { display: flex; flex-direction: column; min-height: 15rem; padding: 1.4rem; border: 1px solid var(--line); border-radius: .7rem; background: var(--card); box-shadow: 0 10px 24px rgba(21, 33, 30, .045); }
+.work-card--featured { border-color: #b6d9cd; background: linear-gradient(145deg, #f0faf6, #fff 60%); }
+.work-card h3 { margin: 0 0 .75rem; font-size: 1.2rem; letter-spacing: -.02em; }
+.work-card p:not(.work-card__eyebrow) { margin: 0; color: var(--muted); line-height: 1.55; text-align: left; }
+.work-card__tags { display: flex; flex-wrap: wrap; gap: .45rem; margin: auto 0 0; padding: 1.35rem 0 0; list-style: none; }
+.work-card__tags li { padding: .22rem .5rem; border-radius: 999px; background: var(--wash); color: var(--accent-dark); font-size: .75rem; }
+.career-list { margin: 1.25rem 0 0; padding: 0; border-top: 1px solid var(--line); list-style: none; }
+.career-list li { display: grid; grid-template-columns: 8rem 1fr; gap: 1rem; padding: 1rem 0; border-bottom: 1px solid var(--line); }
+.career-list time, .career-list p { color: var(--muted); font-size: .88rem; }
+.career-list h3, .career-list p { margin: 0; }
+.career-list h3 { font-size: 1rem; }
+.career-list p { margin-top: .28rem; line-height: 1.45; text-align: left; }
+.post > header { max-width: 48rem; margin: 0 0 2rem; }
+.post > header .posttitle { color: var(--ink); font-size: clamp(2rem, 5vw, 3.25rem); letter-spacing: -.04em; line-height: 1.08; }
+.post > header .meta { color: var(--muted); }
+.project-detail { max-width: 44rem; }
+.project-detail__lede { margin-top: 0; color: var(--muted); font-size: 1.12rem; line-height: 1.65; text-align: left; }
+.project-detail section { margin-top: 2.25rem; padding-top: 1.25rem; border-top: 1px solid var(--line); }
+.project-detail h2 { font-size: 1.25rem; }
+.project-detail p, .project-detail li { line-height: 1.65; text-align: left; }
+.project-detail ul { padding-left: 1.25rem; }
+#header-post, #footer-post-container { display: none !important; }
+@media (max-width: 600px) { #header { margin-bottom: 2.5rem; } .hero { padding-top: 0; } .work-grid { grid-template-columns: 1fr; } .career-list li { grid-template-columns: 1fr; gap: .3rem; } }
+@media (max-width: 480px) { #header #title { min-height: 96px; } #header #nav ul li.icon { top: 93px; } #header #nav li:not(:first-child) { padding-left: 116px; } }
